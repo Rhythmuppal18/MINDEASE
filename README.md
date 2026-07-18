@@ -3,7 +3,7 @@
 
 > *Turn anxiety, depression, overthinking, and stress into interactive puzzles. Each level reflects how emotions work in the mind.*
 
-**[🚀 Play Now](https://mindease-teal.vercel.app/) | [📁 GitHub](https://github.com/Rhythmuppal18/MINDEASE)**
+**[🚀 Play Now](https://mindease-2647.vercel.app/) | [📁 GitHub](https://github.com/Rhythmuppal18/MINDEASE)**
 
 ---
 
