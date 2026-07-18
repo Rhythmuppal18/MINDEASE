@@ -6,6 +6,7 @@ import Timeline from '../components/game/Timeline';
 import { ACHIEVEMENTS, WORLDS } from '../data/mockData';
 import { useGame, deriveLevelFromXP } from '../context/GameContext';
 import { usePageTitle } from '../hooks/usePageTitle';
+import type { EmotionId } from '../types';
 
 export default function Progress() {
   const { progress, completionPercent, isLevelCompleted } = useGame();
