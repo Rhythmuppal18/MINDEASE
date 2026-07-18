@@ -10,10 +10,11 @@ import type { EmotionId } from '../types';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 const backgroundByWorld: Record<EmotionId, 'fog' | 'grey' | 'storm' | 'ocean' | 'time'> = {
-  anxiety: 'time',
+  anxiety: 'fog',
   depression: 'grey',
   overthinking: 'storm',
   stress: 'ocean',
+  impatience: 'time',
 };
 
 export default function LevelSelect() {

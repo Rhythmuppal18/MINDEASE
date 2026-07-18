@@ -45,12 +45,12 @@ export default function Progress() {
         <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {WORLDS.map((world) => {
             const done = world.levels.filter((l) => progress.completedLevels.includes(l.id)).length;
-            const glowColorMap: Record<string, 'cyan' | 'violet' | 'pink' | 'green' | 'red'> = {
+            const glowColorMap: Record<EmotionId, 'cyan' | 'violet' | 'pink' | 'green' | 'amber'> = {
               anxiety: 'cyan',
               depression: 'violet',
               overthinking: 'pink',
               stress: 'green',
-              impatience: 'red',
+              impatience: 'amber',
             };
             return (
               <GlassCard key={world.id} className="p-5" glowColor={glowColorMap[world.id]}>
